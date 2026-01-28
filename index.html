@@ -38,12 +38,11 @@
 
 
     <link rel="apple-touch-icon" sizes="180x180"
-        href="https://indoinvite.com/images/favicon_indoinvite/apple-touch-icon.png">
+        href="./image/utama.jpeg">
     <link rel="icon" type="image/png" sizes="32x32"
-        href="https://indoinvite.com/images/favicon_indoinvite/favicon-32x32.png">
+        href="./image/utama.jpeg">
     <link rel="icon" type="image/png" sizes="16x16"
-        href="https://indoinvite.com/images/favicon_indoinvite/favicon-16x16.png">
-    <link rel="manifest" href="https://indoinvite.com/images/favicon_indoinvite/site.webmanifest">
+        href="./image/utama.jpeg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1192,7 +1191,7 @@
             }
 
             .btn-ok {
-                background: #22B2EF;
+                background: #800000;
                 color: white;
                 border: none;
                 padding: 5px 25px;
@@ -1250,6 +1249,14 @@
             }
         </style>
 
+        <div onclick="clickPlaySound()" id="popup-notif" class="popup-notif">
+            <div id="popup-overlay" class="popup-overlay"></div>
+            <div id="popup-content" class="popup-content">
+                <div><b>Tips</b></div>
+                <div>Untuk tampilan undangan yang lebih maksimal, silakan gunakan browser Google Chrome.</div>
+                <button id="close-notif" class="btn-ok">OK</button>
+            </div>
+        </div>
         <div id="kucing_imut"
             style="display: table; height: 100vh;background-color: #fffffff2;position: fixed;z-index: 99999999;width: 100vw;">
             <div class="middle" style="display: table-cell; vertical-align: middle;">
@@ -1261,7 +1268,7 @@
                         </text>
                     </svg>
                     <p style="font-size: 12px; color:#000; padding: 0px 40px; margin-top: -50px; line-height: 14px;">
-                        Untuk tampilan terbaik gunakan Google Chrome dan matikan mode gelap</p>
+                        Untuk tampilan terbaik gunakan Google Chrome</p>
 
                 </div>
             </div>
